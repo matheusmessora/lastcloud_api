@@ -15,14 +15,10 @@ import org.springframework.web.servlet.DispatcherServlet;
 import java.io.IOException;
 
 public class ApplicationServer {
-    private final String CONFIG_LOCATION = "br.com.pandox.nursery.boot";
+    private final String CONFIG_LOCATION = "br.com.pandox.lastcloud.boot";
 
     public static final int DEFAULT_PORT = 15081;
-    public static final String VERSION = "vSNAPSHOT";
-
-    //    public static final String CONTEXT_PATH = "/api/" + VERSION;
     public static final String CONTEXT_PATH = "/";
-
 
     public static final String MAPPING_URL = "/*";
     public static final String DEFAULT_PROFILE = "staging";
